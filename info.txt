@@ -3,3 +3,14 @@ Pasos del servicio web del SAT:
 2)Solicitud de descarga por RFC y fechas (Id Solicitud)
 3) Verificación de estado de Solicitud
 4) Descarga de paquetes con XML
+
+Este es el servidor del SAT: 
+
+cfdidescargamasivasolicitud.clouda.sat.gob.mx
+
+Las url de cada servicio se pueden revisar en sharepoint en el archivo de "URLs para cada servicio" 
+
+
+Recursos útiles:
+
+1) Video de implementación en java : https://www.youtube.com/watch?v=ZhhQd8dlmfc
