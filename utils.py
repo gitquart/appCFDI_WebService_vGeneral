@@ -1,24 +1,22 @@
-from cfdiclient import Autenticacion,Fiel,SolicitaDescarga,VerificaSolicitudDescarga,DescargaMasiva,Validacion
+from python_wrapper import Autenticacion,Descargamasiva,Solicitadescarga,Validacioncfdi,Verificasolicituddescarga
+from cfdiclient import Fiel
 import os
 import base64
 import zipfile
 from xml.etree import ElementTree as ET
 import openpyxl as excelpy
-from InternalControl import cInternalControl
-import postgresql as bd
 import time
 import tkinter.messagebox as tkMessageBox
 import smtplib,ssl
 from email.message import EmailMessage
 import datetime
-import threading
 
 #Important information for this code
 #--------------------------------------------------------------------------
 #Folder and file names: [RFC]_[TIPO]_[FECHAS]_[ID]
 #lsFolder elements (by order):[rfc_solicitante,tipo,fechaCompleta,fileName] 
 
-objControl=cInternalControl()
+
 formatDateTime='%Y-%m-%d %H:%M'
 #They are filled wit datos.text
 rfcFromFile=''
@@ -97,7 +95,7 @@ def validateFIELFiles(directory):
     return numFiles
   
 def autenticacion():
-    auth = Autenticacion(fiel)
+    auth = Autenticacion.Autenticacion(fiel)
     token = auth.obtener_token()
 
     return token

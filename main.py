@@ -1,5 +1,5 @@
-import quart_webServiceSAT as quartSAT
+import utils as tool
 
 
-
-quartSAT.autenticar()
+res=tool.validateFIELFiles('C:\\Users\\1098350515\\Documents\\CFDI\\Claves_Quart')
+token=tool.autenticacion()
