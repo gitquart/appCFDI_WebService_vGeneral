@@ -14,3 +14,10 @@ Las url de cada servicio se pueden revisar en sharepoint en el archivo de "URLs 
 Recursos útiles:
 
 1) Video de implementación en java : https://www.youtube.com/watch?v=ZhhQd8dlmfc
+2) Video de implementación en .NET : https://www.youtube.com/watch?v=LMa0Ve38M4s&t=55s
+
+_____________________________________________________________________________________________
+Q&A:
+
+Q:Why adding ?wsdl at the end of webservice request?
+A: Adding ?wsdl is a WebService convention to simply return the WSDL back to the client so that the client can parse, verify and validate the actual XML content before it is sent to the WebService request for backend processing. This reduces a lot of errors as well as the back and forth traffic that results from sending bad data.
