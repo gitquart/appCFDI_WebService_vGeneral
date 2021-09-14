@@ -13,8 +13,8 @@ Las url de cada servicio se pueden revisar en sharepoint en el archivo de "URLs 
 
 Recursos útiles:
 
-1) Video de implementación en java : https://www.youtube.com/watch?v=ZhhQd8dlmfc
-2) Video de implementación en .NET : https://www.youtube.com/watch?v=LMa0Ve38M4s&t=55s
+1) Tutorial : https://developers.sw.com.mx/knowledge-base/consumo-webservice-descarga-masiva-sat/
+Aquí vienen las los xml de petición como en la documentación del sat sólo que más claros
 
 _____________________________________________________________________________________________
 Q&A:
