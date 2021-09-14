@@ -1,0 +1,5 @@
+Pasos del servicio web del SAT:
+1) Autenticación con E.Firma
+2)Solicitud de descarga por RFC y fechas (Id Solicitud)
+3) Verificación de estado de Solicitud
+4) Descarga de paquetes con XML
